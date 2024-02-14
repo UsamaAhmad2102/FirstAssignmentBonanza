@@ -21,6 +21,5 @@ xml2js.parseString(xmlData, (err, result) => {
     console.log(result);
 });
 
-
 const yamlData = yaml.load(fs.readFileSync('Greeting.yaml', 'utf8'));
 console.log(yamlData);
